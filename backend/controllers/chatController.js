@@ -3,7 +3,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 // Initialize Gemini with your API Key
 // ⚠️ IMPORTANT: In a real app, use process.env.GEMINI_API_KEY
-const genAI = new GoogleGenerativeAI("AIzaSyA-OqiBjEbq9-u3OzNaQcnGdBXc7zLuzsQ"); 
+const genAI = new GoogleGenerativeAI("####################"); 
 
 exports.chatWithGemini = async (req, res) => {
   const { message } = req.body;
