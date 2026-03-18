@@ -15,3 +15,5 @@ env/
 # Build files
 dist/
 build/
+
+ai-service/models/
