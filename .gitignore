@@ -1,0 +1,17 @@
+# Node
+node_modules/
+npm-debug.log
+
+# Environment variables
+.env
+.env.local
+
+# Python / AI Service
+__pycache__/
+venv/
+env/
+*.pyc
+
+# Build files
+dist/
+build/
